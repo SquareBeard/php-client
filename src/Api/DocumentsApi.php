@@ -519,7 +519,6 @@ class DocumentsApi
 
             } else {
                 // for HTTP post (form)
-                Client
                 $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
             }
         }
